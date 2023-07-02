@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Contacts.MAUI.Views.SingleContact"
+             Title="SingleContact">
+    <VerticalStackLayout>
+        <HorizontalStackLayout>
+            <Label 
+                Text="First name"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+            <Label
+                x:Name="contact_firstName"
+                Text=""
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+        </HorizontalStackLayout>
+
+        <Button
+            x:Name="btnCancel"
+            Text="Cancel"
+            Clicked="btnCancel_Clicked"
+            />
+    </VerticalStackLayout>
+</ContentPage>
