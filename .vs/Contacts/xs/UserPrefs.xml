@@ -1,15 +1,31 @@
 ﻿<Properties StartupConfiguration="{563FCD63-ADD8-47DA-9A9B-C67AA1BB787E}|Default">
-  <MonoDevelop.Ide.ItemProperties.Contacts.MAUI PreferredExecutionTarget="MyAppleMacCatalystID" />
+  <MonoDevelop.Ide.ItemProperties.Contacts.MAUI PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.76DA69C1-7629-4FAE-B11F-D574EBE62037" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <Xamarin.Addins.Core.Project ActiveDebugTarget="MyAppleMacCatalystID" />
-  <MonoDevelop.Ide.Workbench>
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.76DA69C1-7629-4FAE-B11F-D574EBE62037" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Contacts.MAUI/Views/ContactsPage.xaml.cs">
+    <Files>
+      <File FileName="Contacts.MAUI/Views/ContactsPage.xaml.cs" Line="20" Column="13" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Contacts" expanded="True" selected="True" />
+          <Node name="Contacts">
+            <Node name="Contacts.MAUI">
+              <Node name="Models" expanded="True" />
+              <Node name="Platforms" expanded="True">
+                <Node name="iOS" expanded="True" />
+              </Node>
+              <Node name="Views" expanded="True">
+                <Node name="ContactsPage.xaml" expanded="True" />
+                <Node name="EditContactPage.xaml" expanded="True" />
+                <Node name="SingleContact.xaml" expanded="True" />
+              </Node>
+              <Node name="AppShell.xaml" expanded="True" />
+            </Node>
+          </Node>
         </State>
       </Pad>
       <Pad Id="MonoDevelop.Debugger.WatchPad">
