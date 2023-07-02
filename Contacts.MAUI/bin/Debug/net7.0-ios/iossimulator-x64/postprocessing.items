@@ -7,9 +7,9 @@
       <dSYMSourcePathExists>false</dSYMSourcePathExists>
       <NoSymbolStrip>true</NoSymbolStrip>
       <dSYMInfoPlistRelativePath>Contacts.MAUI.app.dSYM\Contents\Info.plist</dSYMInfoPlistRelativePath>
-      <SymbolFile>/Users/mas/Documents/DotNET/contacts/Contacts/Contacts.MAUI/obj/Debug/net7.0-ios/iossimulator-x64/mtouch-symbols.list</SymbolFile>
+      <SymbolFile>/Users/mas/Documents/DotNET/contacts/Contacts.MAUI/obj/Debug/net7.0-ios/iossimulator-x64/mtouch-symbols.list</SymbolFile>
       <DSymName>Contacts.MAUI.app.dSYM</DSymName>
-      <SourceProjectPath>/Users/mas/Documents/DotNET/contacts/Contacts/Contacts.MAUI</SourceProjectPath>
+      <SourceProjectPath>/Users/mas/Documents/DotNET/contacts/Contacts.MAUI</SourceProjectPath>
     </_PostProcessingItem>
   </ItemGroup>
 </Project>

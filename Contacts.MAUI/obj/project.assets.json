@@ -18450,11 +18450,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/mas/Documents/DotNET/contacts/Contacts/Contacts.MAUI/Contacts.MAUI.csproj",
+      "projectUniqueName": "/Users/mas/Documents/DotNET/contacts/Contacts.MAUI/Contacts.MAUI.csproj",
       "projectName": "Contacts.MAUI",
-      "projectPath": "/Users/mas/Documents/DotNET/contacts/Contacts/Contacts.MAUI/Contacts.MAUI.csproj",
+      "projectPath": "/Users/mas/Documents/DotNET/contacts/Contacts.MAUI/Contacts.MAUI.csproj",
       "packagesPath": "/Users/mas/.nuget/packages/",
-      "outputPath": "/Users/mas/Documents/DotNET/contacts/Contacts/Contacts.MAUI/obj/",
+      "outputPath": "/Users/mas/Documents/DotNET/contacts/Contacts.MAUI/obj/",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "configFilePaths": [

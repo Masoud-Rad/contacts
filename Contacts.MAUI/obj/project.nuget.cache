@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "R3rWp7BdeTjVdKA6tuv/wvVCcz9P36xMhKfWV7w4sFLEz2CvA91eUVNVR8NKVpk274jgzTme32jj4Iczogag8Q==",
+  "dgSpecHash": "MoGT3GkySnman0GmoywM8EyBTNxNXKolDN+rc1gc2F9PT+WuUMbYlGySPQYzeZpE/5RYWpAuF7X0kN8aL4Q6vQ==",
   "success": true,
-  "projectFilePath": "/Users/mas/Documents/DotNET/contacts/Contacts/Contacts.MAUI/Contacts.MAUI.csproj",
+  "projectFilePath": "/Users/mas/Documents/DotNET/contacts/Contacts.MAUI/Contacts.MAUI.csproj",
   "expectedPackageFiles": [
     "/Users/mas/.nuget/packages/googlegson/2.9.1.1/googlegson.2.9.1.1.nupkg.sha512",
     "/Users/mas/.nuget/packages/microsoft.extensions.configuration/7.0.0/microsoft.extensions.configuration.7.0.0.nupkg.sha512",

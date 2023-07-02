@@ -3,23 +3,118 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Contacts.MAUI.Views.SingleContact"
              Title="SingleContact">
-    <VerticalStackLayout>
-        <HorizontalStackLayout>
-            <Label 
-                Text="First name"
-                VerticalOptions="Center" 
-                HorizontalOptions="Center" />
-            <Label
-                x:Name="contact_firstName"
-                Text=""
-                VerticalOptions="Center" 
-                HorizontalOptions="Center" />
-        </HorizontalStackLayout>
 
-        <Button
+    <Grid Padding="20" Margin="0,0,0,40">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Frame Grid.Row="0" Padding="10" BackgroundColor="#eee" CornerRadius="5">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Label 
+                    Text="First name:"
+                    VerticalOptions="Center" 
+                    HorizontalOptions="Start"
+                    Margin="0,3,20,3"/>
+                <Label
+                    x:Name="lbl_firstName"
+                    Text=""
+                    HorizontalOptions="End"
+                    FontSize="20"
+                    Grid.Column="1"
+                    Margin="30,3,3,3"
+                />
+            </Grid>
+        </Frame>
+
+        <Frame Grid.Row="1" Padding="10" BackgroundColor="#eee" CornerRadius="5">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Label 
+                    Text="Last name:"
+                    VerticalOptions="Center" 
+                    HorizontalOptions="Start"
+                    Margin="0,3,20,3"/>
+                <Label
+                    x:Name="lbl_lastName"
+                    Text=""
+                    HorizontalOptions="End"
+                    FontSize="20"
+                    Grid.Column="1"
+                    Margin="30,3,3,3"
+                />
+            </Grid>
+        </Frame>
+
+        <Frame Grid.Row="2" Padding="10" BackgroundColor="#eee" CornerRadius="5">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Label 
+                    Text="Mobile:"
+                    VerticalOptions="Center" 
+                    HorizontalOptions="Start"
+                    Margin="0,3,20,3"/>
+                <Label
+                    x:Name="lbl_mobile"
+                    Text=""
+                    HorizontalOptions="End"
+                    FontSize="20"
+                    Grid.Column="1"
+                    Margin="30,3,3,3"
+                />
+            </Grid>
+        </Frame>
+
+        <Frame Grid.Row="3" Padding="10" BackgroundColor="#eee" CornerRadius="5">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Label 
+                    Text="Email:"
+                    VerticalOptions="Center" 
+                    HorizontalOptions="Start"
+                    Margin="0,3,20,3"/>
+                <Label
+                    x:Name="lbl_email"
+                    Text=""
+                    HorizontalOptions="End"
+                    FontSize="20"
+                    Grid.Column="1"
+                    Margin="30,3,3,3"
+                />
+            </Grid>
+        </Frame>
+
+         <Button
+            Grid.Row="4"
             x:Name="btnCancel"
             Text="Cancel"
             Clicked="btnCancel_Clicked"
-            />
-    </VerticalStackLayout>
+            Margin="0,20,0,0"
+            VerticalOptions="End"
+        />
+           
+
+    </Grid>
 </ContentPage>
+

@@ -8,57 +8,57 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Contacts.MAUI
-build_property.ProjectDir = /Users/mas/Documents/DotNET/contacts/Contacts/Contacts.MAUI/
+build_property.ProjectDir = /Users/mas/Documents/DotNET/contacts/Contacts.MAUI/
 
-[/Users/mas/Documents/DotNET/contacts/Contacts/Contacts.MAUI/App.xaml]
+[/Users/mas/Documents/DotNET/contacts/Contacts.MAUI/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Contacts.MAUI.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[/Users/mas/Documents/DotNET/contacts/Contacts/Contacts.MAUI/AppShell.xaml]
+[/Users/mas/Documents/DotNET/contacts/Contacts.MAUI/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Contacts.MAUI.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[/Users/mas/Documents/DotNET/contacts/Contacts/Contacts.MAUI/MainPage.xaml]
+[/Users/mas/Documents/DotNET/contacts/Contacts.MAUI/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Contacts.MAUI.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[/Users/mas/Documents/DotNET/contacts/Contacts/Contacts.MAUI/Resources/Styles/Colors.xaml]
+[/Users/mas/Documents/DotNET/contacts/Contacts.MAUI/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Contacts.MAUI.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources/Styles/Colors.xaml
 
-[/Users/mas/Documents/DotNET/contacts/Contacts/Contacts.MAUI/Resources/Styles/Styles.xaml]
+[/Users/mas/Documents/DotNET/contacts/Contacts.MAUI/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Contacts.MAUI.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources/Styles/Styles.xaml
 
-[/Users/mas/Documents/DotNET/contacts/Contacts/Contacts.MAUI/Views/AddContactPage.xaml]
+[/Users/mas/Documents/DotNET/contacts/Contacts.MAUI/Views/AddContactPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Contacts.MAUI.Views.AddContactPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views/AddContactPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views/AddContactPage.xaml
 
-[/Users/mas/Documents/DotNET/contacts/Contacts/Contacts.MAUI/Views/ContactsPage.xaml]
+[/Users/mas/Documents/DotNET/contacts/Contacts.MAUI/Views/ContactsPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Contacts.MAUI.Views.ContactsPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views/ContactsPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views/ContactsPage.xaml
 
-[/Users/mas/Documents/DotNET/contacts/Contacts/Contacts.MAUI/Views/EditContactPage.xaml]
+[/Users/mas/Documents/DotNET/contacts/Contacts.MAUI/Views/EditContactPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Contacts.MAUI.Views.EditContactPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views/EditContactPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views/EditContactPage.xaml
 
-[/Users/mas/Documents/DotNET/contacts/Contacts/Contacts.MAUI/Views/SingleContact.xaml]
+[/Users/mas/Documents/DotNET/contacts/Contacts.MAUI/Views/SingleContact.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Contacts.MAUI.Views.SingleContact.xaml
 build_metadata.AdditionalFiles.TargetPath = Views/SingleContact.xaml
