@@ -3,16 +3,49 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Contacts.MAUI.Views.EditContactPage"
              Title="Edit the contact">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+    <VerticalStackLayout Spacing="10" Margin="20,20,0,20">
+     
 
-        <Button
-            x:Name="btnCancel"
-            Text="Cancel"
-            Clicked="btnCancel_Clicked"
-            />
+        <HorizontalStackLayout>
+            <Label Text="First name:" VerticalOptions="Center" WidthRequest="80"></Label>
+            <Entry x:Name="entry_firstName" VerticalOptions="Center" WidthRequest="270" Margin="10,0,0,0"></Entry>
+        </HorizontalStackLayout>
+
+         <HorizontalStackLayout>
+            <Label Text="Last name:" VerticalOptions="Center" WidthRequest="80" ></Label>
+            <Entry x:Name="entry_lastName" VerticalOptions="Center" WidthRequest="270" Margin="10,0,0,0"></Entry>
+        </HorizontalStackLayout>
+
+         <HorizontalStackLayout>
+            <Label Text="Mobile:" VerticalOptions="Center" WidthRequest="80"></Label>
+            <Entry x:Name="entry_mobile" VerticalOptions="Center" WidthRequest="270" Margin="10,0,0,0"></Entry>
+        </HorizontalStackLayout>
+
+         <HorizontalStackLayout >
+            <Label Text="Email:" VerticalOptions="Center" WidthRequest="80"></Label>
+            <Entry x:Name="entry_email" VerticalOptions="Center" WidthRequest="270" Margin="10,0,0,0"></Entry>
+        </HorizontalStackLayout>
+
+         <Frame VerticalOptions="End" HeightRequest="70" BorderColor="Transparent" >
+         <HorizontalStackLayout >
+                <Button
+                    Margin="3,3,3,3"
+                    WidthRequest="150"
+                    x:Name="btnCancel"
+                    Text="Cancel"
+                    Clicked="btnCancel_Clicked"
+                    HorizontalOptions="Start"
+            
+                    />
+                      <Button
+                    WidthRequest="150"
+                    x:Name="btnUpdate"
+                    Text="Update"
+                    Clicked="btnUpdate_Clicked"
+                    HorizontalOptions="End"
+                    Margin="3,3,3,3"
+                    />
+         </HorizontalStackLayout>
+         </Frame>
     </VerticalStackLayout>
 </ContentPage>

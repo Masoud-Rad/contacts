@@ -3,15 +3,36 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Contacts.MAUI.Views.AddContactPage"
              Title="Add a new contact">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+      <VerticalStackLayout Spacing="10" Margin="20,20,0,20">
+     
+
+        <HorizontalStackLayout>
+            <Label Text="First name:" VerticalOptions="Center" WidthRequest="80"></Label>
+            <Entry VerticalOptions="Center" WidthRequest="270" Margin="10,0,0,0"></Entry>
+        </HorizontalStackLayout>
+
+         <HorizontalStackLayout>
+            <Label Text="Last name:" VerticalOptions="Center" WidthRequest="80" ></Label>
+            <Entry VerticalOptions="Center" WidthRequest="270" Margin="10,0,0,0"></Entry>
+        </HorizontalStackLayout>
+
+         <HorizontalStackLayout>
+            <Label Text="Mobile:" VerticalOptions="Center" WidthRequest="80"></Label>
+            <Entry VerticalOptions="Center" WidthRequest="270" Margin="10,0,0,0"></Entry>
+        </HorizontalStackLayout>
+
+         <HorizontalStackLayout >
+            <Label Text="Email:" VerticalOptions="Center" WidthRequest="80"></Label>
+            <Entry VerticalOptions="Center" WidthRequest="270" Margin="10,0,0,0"></Entry>
+        </HorizontalStackLayout>
+
+
         <Button
             x:Name="btnCancel"
             Text="Cancel"
             Clicked="btnCancel_Clicked"
+            HorizontalOptions="Center"
             />
+
     </VerticalStackLayout>
 </ContentPage>

@@ -18,6 +18,19 @@ namespace Contacts.MAUI.Models
             return _contacts.FirstOrDefault(x => x.ContactId == contactId);
         }
 
+        public static void UpdateContact(int contactId, Contact contact)
+        {
+            if (contactId != contact.ContactId) return;
+            var contactToUpdate = GetContactById(contactId);
+
+            if(contactToUpdate!=null)
+            {
+                contactToUpdate.FirstName = contact.FirstName;
+                contactToUpdate.LastName = contact.LastName;
+                contactToUpdate.Mobile = contact.Mobile;
+                contactToUpdate.Email = contact.Email;
+            }
+        }
     }
 
 }

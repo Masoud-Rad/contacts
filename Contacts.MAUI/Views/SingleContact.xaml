@@ -4,7 +4,7 @@
              x:Class="Contacts.MAUI.Views.SingleContact"
              Title="SingleContact">
 
-    <Grid Padding="20" Margin="0,0,0,40">
+    <Grid Padding="20" RowSpacing="10">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
@@ -104,17 +104,38 @@
                 />
             </Grid>
         </Frame>
+        <Frame Grid.Row="4" VerticalOptions="End" HeightRequest="50" BorderColor="Transparent" >
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
 
-         <Button
-            Grid.Row="4"
-            x:Name="btnCancel"
-            Text="Cancel"
-            Clicked="btnCancel_Clicked"
-            Margin="0,20,0,0"
-            VerticalOptions="End"
-        />
-           
+            
+             <Button
+                WidthRequest="150"
+                Grid.Column="0"
+                x:Name="btnHomePage"
+                Text="Home page"
+                Clicked="btnHomePage_Clicked"
+                HorizontalOptions="Start"
+                 VerticalOptions="Center"
+             />
 
+            <Button
+                WidthRequest="150"
+                Grid.Column="1"
+                x:Name="btnEdit"
+                Text="Edit"
+                Clicked="btnEdit_Clicked"
+                HorizontalOptions="End"
+                VerticalOptions="Center"
+            />
+
+       
+
+           </Grid>
+            </Frame>
     </Grid>
 </ContentPage>
 

@@ -31,6 +31,10 @@ public partial class ContactsPage : ContentPage
         }
     }
 
+    void btnAdd_Clicked(System.Object sender, System.EventArgs e)
+    {
+        Shell.Current.GoToAsync(nameof(AddContactPage));
+    }
 
 
 }
