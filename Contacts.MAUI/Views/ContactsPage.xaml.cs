@@ -16,11 +16,7 @@ public partial class ContactsPage : ContentPage
     protected override void OnAppearing()
     {
         base.OnAppearing();
-
-        var  contacts = new ObservableCollection<Contact>(ContactRepo.GetContacts());
-
-        contactsList.ItemsSource = contacts;
-
+        LoadContacts(); 
     }
 
 
@@ -42,5 +38,20 @@ public partial class ContactsPage : ContentPage
         Shell.Current.GoToAsync(nameof(AddContactPage));
     }
 
+    void DeleteMenuItem_Clicked(System.Object sender, System.EventArgs e)
+    {
+        var menuItem = sender as MenuItem;
+        var contact = menuItem.CommandParameter as Contact;
+        ContactRepo.DeleteContact(contact.ContactId);
+        LoadContacts(); 
+    }
 
+    private void LoadContacts()
+    {
+
+        var contacts = new ObservableCollection<Contact>(ContactRepo.GetContacts());
+
+        contactsList.ItemsSource = contacts;
+    }
+    
 }

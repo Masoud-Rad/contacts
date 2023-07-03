@@ -686,8 +686,6 @@
 /Users/mas/Documents/DotNET/contacts/Contacts.MAUI/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/_ProcessedBundleResourcesPath.items
 /Users/mas/Documents/DotNET/contacts/Contacts.MAUI/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/_ProcessedContentPath.items
 /Users/mas/Documents/DotNET/contacts/Contacts.MAUI/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/Contacts.MAUI.csproj.AssemblyReference.cache
-/Users/mas/Documents/DotNET/contacts/Contacts.MAUI/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/resourcestamps/CommunityToolkit.Maui.Core.stamp
-/Users/mas/Documents/DotNET/contacts/Contacts.MAUI/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/resourcestamps/CommunityToolkit.Maui.stamp
 /Users/mas/Documents/DotNET/contacts/Contacts.MAUI/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/Contacts.MAUI.GeneratedMSBuildEditorConfig.editorconfig
 /Users/mas/Documents/DotNET/contacts/Contacts.MAUI/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/Contacts.MAUI.AssemblyInfoInputs.cache
 /Users/mas/Documents/DotNET/contacts/Contacts.MAUI/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/Contacts.MAUI.AssemblyInfo.cs

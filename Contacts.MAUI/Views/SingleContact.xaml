@@ -13,7 +13,7 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
-        <Frame Grid.Row="0" Padding="10" BackgroundColor="#eee" CornerRadius="5">
+        <Frame Grid.Row="0" Padding="10"  CornerRadius="5">
             <Grid>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="Auto"/>
@@ -36,7 +36,7 @@
             </Grid>
         </Frame>
 
-        <Frame Grid.Row="1" Padding="10" BackgroundColor="#eee" CornerRadius="5">
+        <Frame Grid.Row="1" Padding="10"  CornerRadius="5">
             <Grid>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="Auto"/>
@@ -59,7 +59,7 @@
             </Grid>
         </Frame>
 
-        <Frame Grid.Row="2" Padding="10" BackgroundColor="#eee" CornerRadius="5">
+        <Frame Grid.Row="2" Padding="10"  CornerRadius="5">
             <Grid>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="Auto"/>
@@ -82,7 +82,7 @@
             </Grid>
         </Frame>
 
-        <Frame Grid.Row="3" Padding="10" BackgroundColor="#eee" CornerRadius="5">
+        <Frame Grid.Row="3" Padding="10"  CornerRadius="5">
             <Grid>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="Auto"/>
