@@ -36,7 +36,21 @@ public partial class EditContactPage : ContentPage
 
     void btnUpdate_Clicked(System.Object sender, System.EventArgs e)
     {
-        currentContact.FirstName = entry_firstName.Text;
+        if(firstName_Validator.IsNotValid)
+        {
+            DisplayAlert("Error!", "First name is too short.","OK");
+            return;
+        }
+
+        if (email_Validator.IsNotValid)
+        {
+            foreach(var error in email_Validator.Errors )
+            {
+                DisplayAlert("Error!", error.ToString(), "OK");
+            }
+            return;
+        }
+            currentContact.FirstName = entry_firstName.Text;
         currentContact.LastName = entry_lastName.Text;
         currentContact.Email = entry_email.Text;
         currentContact.Mobile = int.Parse(entry_mobile.Text);

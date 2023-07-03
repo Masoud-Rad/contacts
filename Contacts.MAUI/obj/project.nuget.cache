@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "MoGT3GkySnman0GmoywM8EyBTNxNXKolDN+rc1gc2F9PT+WuUMbYlGySPQYzeZpE/5RYWpAuF7X0kN8aL4Q6vQ==",
+  "dgSpecHash": "DnOA3971mXMDB7+axiQ9pDo3hXOc/ti1WI3XXdaglXOWz884o8KooeU1G4Q+bWaF5rOlZDZWeXC9Hujq/g+i+w==",
   "success": true,
   "projectFilePath": "/Users/mas/Documents/DotNET/contacts/Contacts.MAUI/Contacts.MAUI.csproj",
   "expectedPackageFiles": [
+    "/Users/mas/.nuget/packages/communitytoolkit.maui/5.2.0/communitytoolkit.maui.5.2.0.nupkg.sha512",
+    "/Users/mas/.nuget/packages/communitytoolkit.maui.core/5.2.0/communitytoolkit.maui.core.5.2.0.nupkg.sha512",
     "/Users/mas/.nuget/packages/googlegson/2.9.1.1/googlegson.2.9.1.1.nupkg.sha512",
     "/Users/mas/.nuget/packages/microsoft.extensions.configuration/7.0.0/microsoft.extensions.configuration.7.0.0.nupkg.sha512",
     "/Users/mas/.nuget/packages/microsoft.extensions.configuration.abstractions/7.0.0/microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",

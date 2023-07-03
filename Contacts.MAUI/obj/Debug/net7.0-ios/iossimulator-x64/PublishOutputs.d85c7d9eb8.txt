@@ -1,4 +1,6 @@
 /Users/mas/Documents/DotNET/contacts/Contacts.MAUI/bin/Debug/net7.0-ios/iossimulator-x64/publish/../Contacts.MAUI.app/icudt.dat
+/Users/mas/Documents/DotNET/contacts/Contacts.MAUI/bin/Debug/net7.0-ios/iossimulator-x64/publish/../Contacts.MAUI.app/CommunityToolkit.Maui.dll
+/Users/mas/Documents/DotNET/contacts/Contacts.MAUI/bin/Debug/net7.0-ios/iossimulator-x64/publish/../Contacts.MAUI.app/CommunityToolkit.Maui.Core.dll
 /Users/mas/Documents/DotNET/contacts/Contacts.MAUI/bin/Debug/net7.0-ios/iossimulator-x64/publish/../Contacts.MAUI.app/Microsoft.Extensions.Configuration.dll
 /Users/mas/Documents/DotNET/contacts/Contacts.MAUI/bin/Debug/net7.0-ios/iossimulator-x64/publish/../Contacts.MAUI.app/Microsoft.Extensions.Configuration.Abstractions.dll
 /Users/mas/Documents/DotNET/contacts/Contacts.MAUI/bin/Debug/net7.0-ios/iossimulator-x64/publish/../Contacts.MAUI.app/Microsoft.Extensions.DependencyInjection.dll
