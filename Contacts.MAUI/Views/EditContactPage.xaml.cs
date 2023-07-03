@@ -10,7 +10,6 @@ public partial class EditContactPage : ContentPage
     public EditContactPage()
 	{
 		InitializeComponent();
-        btnCancel.Clicked += btnCancel_Clicked;
     }
 
     private void btnCancel_Clicked(System.Object sender, System.EventArgs e)
@@ -26,37 +25,28 @@ public partial class EditContactPage : ContentPage
             currentContact = ContactRepo.GetContactById(int.Parse(value));
             if (currentContact != null)
             {
-                entry_firstName.Text = currentContact.FirstName;
-                entry_lastName.Text = currentContact.LastName;
-                entry_email.Text = currentContact.Email;
-                entry_mobile.Text = currentContact.Mobile.ToString();
+                contactCtrl.FirstName = currentContact.FirstName;
+                contactCtrl.LastName = currentContact.LastName;
+                contactCtrl.Email = currentContact.Email;
+                contactCtrl.Mobile = currentContact.Mobile.ToString();
             }
         }
     }
 
     void btnUpdate_Clicked(System.Object sender, System.EventArgs e)
     {
-        if(firstName_Validator.IsNotValid)
-        {
-            DisplayAlert("Error!", "First name is too short.","OK");
-            return;
-        }
 
-        if (email_Validator.IsNotValid)
-        {
-            foreach(var error in email_Validator.Errors )
-            {
-                DisplayAlert("Error!", error.ToString(), "OK");
-            }
-            return;
-        }
-            currentContact.FirstName = entry_firstName.Text;
-        currentContact.LastName = entry_lastName.Text;
-        currentContact.Email = entry_email.Text;
-        currentContact.Mobile = int.Parse(entry_mobile.Text);
+        currentContact.FirstName = contactCtrl.FirstName;
+        currentContact.LastName = contactCtrl.LastName;
+        currentContact.Email = contactCtrl.Email;
+        currentContact.Mobile = int.Parse(contactCtrl.Mobile);
 
         ContactRepo.UpdateContact(currentContact.ContactId, currentContact);
         Shell.Current.GoToAsync($"{nameof(SingleContact)}?Id={currentContact.ContactId}");
     }
 
+    void contactCtrl_OnError(System.Object sender, System.String e)
+    {
+        DisplayAlert("Error!", e, "OK");
+    }
 }
