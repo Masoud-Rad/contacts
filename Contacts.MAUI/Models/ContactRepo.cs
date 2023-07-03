@@ -1,4 +1,6 @@
 ﻿using System;
+using Microsoft.Maui.ApplicationModel.Communication;
+
 namespace Contacts.MAUI.Models
 {
 	public static class ContactRepo
@@ -61,6 +63,18 @@ namespace Contacts.MAUI.Models
             {
                 _contacts.Remove(contact);
             }
+        }
+
+        public static List<Contact> SearchContacts (string filterText)
+        {
+           var contacts=  _contacts.Where(x=>  x.FirstName.StartsWith(filterText, StringComparison.OrdinalIgnoreCase))?.ToList();
+            if(contacts==null || contacts.Count <=0)
+            {
+                contacts = _contacts.Where(x => !string.IsNullOrWhiteSpace(x.LastName) &&  x.LastName.StartsWith(filterText, StringComparison.OrdinalIgnoreCase))?.ToList();
+            }
+            
+                return contacts;
+
         }
     }
 
